@@ -124,7 +124,7 @@ section#chatai {
     cursor: pointer;
 }
 
-@media(max-width: 490px) {
+@media(max-width: 671px) {
     .chatbot {
         right: 0;
         bottom: 0;
