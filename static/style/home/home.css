@@ -6,6 +6,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+body {
+    height: 100vh;
+    background-color: #2b1055;
+}
 
 body > header {
     position: sticky;
@@ -73,7 +77,8 @@ section .text {
     position: absolute;
     color: #fff;
     font-size: 7.5vh;
-    top:30%
+    top:30%;
+    text-align: center;
 }
 
 section .childtext {
@@ -81,6 +86,7 @@ section .childtext {
     color: #fff;
     top: 50%;
     font-size: 4vh;
+    text-align: center;
 }
 
 .more {
@@ -98,8 +104,15 @@ section .childtext {
     left: 37%;
 }
 
-@media(max-width: 490px) {
-    header .logo {
+@media(max-width: 671px) {
+    header.logo {
         visibility: hidden;
+    }
+    section#home {
+        top: -20%
+    }
+    section#home .text {
+        top: 20%;
+        font-size: 40px;
     }
 }
